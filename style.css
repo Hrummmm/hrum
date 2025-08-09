@@ -1,0 +1,36 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blok {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.header h1 {
+  font-size: 2em;
+  color: #333;
+}
+.header table {
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
